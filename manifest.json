@@ -1,0 +1,18 @@
+{
+    "name": "FB留言",
+    "version": "1.0",
+    "description": "FB留言",
+    "permissions": ["declarativeContent", "activeTab", "tabs", "downloads", "*://*/*"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "imgs/c.png",
+        "128": "imgs/c.png"
+    },
+    "manifest_version": 2
+}
